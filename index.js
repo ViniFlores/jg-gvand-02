@@ -80,7 +80,7 @@ import { ApolloServer } from 'apollo-server';
 
 const server = new ApolloServer({ schema, context: { driver } });
 
-server.listen(3003, '0.0.0.0').then(({ url }) => {
+server.listen(3004, '0.0.0.0').then(({ url }) => {
   console.log(`GraphQL API ready at ${url}`);
 });
 
